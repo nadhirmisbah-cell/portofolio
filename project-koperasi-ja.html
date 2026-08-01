@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cooperative Website</title>
+    <meta name="description" content="Koperasi Desa Merah Putih Cileunyi Wetanのプロフィールウェブサイトの開発に関するケーススタディ。HTML、CSS、およびJavaScriptに基づく学術プロジェクトです。">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="index-ja.html" class="name">← ポートフォリオに戻る</a>
+        </div>
+    </header>
+
+    <!-- MAIN -->
+    <main class="section">
+        <div class="container">
+
+            <h1>Koperasi Desa Merah Putih Cileunyi Wetanの協同組合ウェブサイト</h1>
+
+            <p class="muted">
+                <strong>ロル:</strong> Web Developer<br>
+                <strong>使用技術:</strong> HTML5, CSS3 (Flexbox & Grid), JavaScript (Vanilla)<br>
+                <strong>プロジェクトタイプ:</strong> 学術プロジェクト
+            </p>
+
+            <!-- 概要 -->
+            <section class="section-gap">
+                <h2>プロジェクト概要</h2>
+                <p>
+                    このプロジェクトは、学術課題の一環として、Koperasi Desa Merah Putih Cileunyi Wetanのプロフィールウェブサイトの開発を目的としています。このウェブサイトは、協同組合の情報をデジタル形式で、構造的かつアクセシブルな方法で提示することを目的としています。
+                </p>
+            </section>
+
+            <!-- 目標 -->
+            <section class="section-gap">
+                <h2>開発目標</h2>
+                <ul>
+                    <li>協同組合の公式ウェブベース情報メディアを提供する。</li>
+                    <li>コンテンツを明確に構造化し、地域住民が理解しやすいようにする。</li>
+                    <li>シンプルで一貫性があり、機能的なインターフェースデザインを実装する。</li>
+                </ul>
+            </section>
+
+            <!-- 課題 -->
+            <section class="section-gap">
+                <h2>課題と解決策</h2>
+                <ul>
+                    <li>課題: 協同組合の情報をデジタル形式で提示する必要がありました。<br>
+                        解決策: HTML、CSS、およびJavaScriptを使用して、ユーザーにとって使いやすく、視覚的に魅力的なウェブサイトを作成しました。</li>
+                    <li>課題: コンテンツの構造を明確にし、地域住民が理解しやすいようにする必要がありました。<br>
+                        解決策: コンテンツを論理的に整理し、明確なナビゲーションと視覚的なヒエラルキーを提供しました。</li>
+                    <li>課題: シンプルで一貫性があり、機能的なインターフェースデザインを実装する必要がありました。<br>
+                        解決策: 一貫したデザインパターンを使用し、ユーザーが簡単に情報を見つけられるようにしました。</li>
+                </ul>
+            </section>
+            <div style="margin-top: 20px;">
+                <a href="index-ja.html" class="back-link">← ポートフォリオに戻る</a>
+            </div>
+        </div>
+    </main>
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="container">
+            <p>© <span id="year"></span> ナディル國光みすば</p>
+        </div>
+    </footer>
+
+    <script>
+        // Update the year in the footer
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+
+</body>
+</html>
