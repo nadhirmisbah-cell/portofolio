@@ -8,8 +8,7 @@
   <title>Nadhir Kunimitsu Misbah | Mahasiswa Manajemen & Web Development</title>
 
   <!-- SEO -->
-  <meta name="description"
-    content="Portofolio Nadhir Kunimitsu Misbah, mahasiswa Manajemen dengan latar belakang Teknik Komputer Jaringan, fokus pada web development dan sistem informasi.">
+  <meta name="description" content="Portofolio Nadhir Kunimitsu Misbah, mahasiswa Manajemen dengan latar belakang Teknik Komputer Jaringan, fokus pada web development dan sistem informasi.">
 
   <!-- Open Graph -->
   <meta property="og:title" content="Nadhir Kunimitsu Misbah — Web Development & Manajemen">
@@ -18,6 +17,22 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://portofolionadhirkunimitsumisbah.netlify.app/">
   <meta property="og:image" content="https://portofolionadhirkunimitsumisbah.netlify.app/assets/profile.png">
+
+  <!-- Schema.org JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Nadhir Kunimitsu Misbah",
+  "url": "https://portofolionadhirkunimitsumisbah.netlify.app/",
+  "image": "https://portofolionadhirkunimitsumisbah.netlify.app/assets/profile.png",
+  "jobTitle": "Frontend Web Developer",
+  "sameAs": [
+    "https://github.com/nadhirmisbah-cell",
+    "https://www.linkedin.com/in/fauzan-nadhir-misbah-3932ab366"
+  ]
+}
+</script>
 
   <!-- Font -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
@@ -32,7 +47,7 @@
     <div class="container header-inner">
       <div class="brand">
           <div class="lang-switch">
-          <a href="index.html">ID</a> | <a href="index-en.html">EN</a>
+          <a href="index.html">ID</a> | <a href="index-en.html">EN</a> | <a href="index-ja.html">JA</a>
         </div>
 
         <h2 class="name">Nadhir Kunimitsu Misbah</h2>
@@ -56,8 +71,12 @@
     <section id="hero" class="hero">
       <div class="container hero-inner">
         <div class="hero-left">
-          <img src="assets/profile.png" alt="Foto profil Nadhir Kunimitsu Misbah" class="profile-photo" width="220"
-            height="220" loading="lazy">
+          <img src="assets/img.jpg"
+            alt="Portrait of Nadhir Kunimitsu Misbah"
+            class="profile-photo"
+            width="220"
+            height="220"
+            loading="lazy">
         </div>
 
         <div class="hero-right">
@@ -77,6 +96,12 @@
             <a href="https://www.linkedin.com/in/fauzan-nadhir-misbah-3932ab366" target="_blank" rel="noopener">LinkedIn</a> •
             <a href="https://www.instagram.com/nadhir_dev" target="_blank" rel="noopener">Instagram</a>
           </div>
+
+          <div style="margin-top:24px;">
+            <a href="#projects" class="btn primary">Lihat Proyek</a>
+            <a href="assets/Fauzan-Nadhir-Misbah-CV.pdf" class="btn outline" download>Download CV</a>
+          <button id="darkToggle" class="btn outline">Dark Mode</button>
+        </div>
         </div>
       </div>
     </section>
