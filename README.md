@@ -3,7 +3,7 @@
 Personal portfolio website built using HTML, CSS, and JavaScript.
 
 ## Features
-- Bilingual pages (ID / EN)
+- Bilingual pages (ID / EN/ JA)
 - Project showcase
 - Simple and clean layout
 
